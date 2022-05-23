@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(150, 255, 255);
+}
+.calculadora {
+    position: absolute;
+    background-color: rgb(105, 105, 105, 0.7);
+    border-radius: 15px;
+    padding: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    align-items: center;
+    
+}
+button {
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+button[type="r"] {
+    height: 110px;
+}
+
+#resultado {
+    background-color: aliceblue;
+    width: 230px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-align: right;
+    padding: 5px;
+}
